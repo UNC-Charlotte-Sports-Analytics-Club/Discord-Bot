@@ -5,7 +5,15 @@ Hello, this is the source code for our discord bot. The goal is to build somethi
 ## Production Ideas
 * Make a welcome bot that verifies the user joining is a UNC Charlotte student
 * Make cool command shortcuts that do something fun and maybe have it be a shortcut for bans/timeouts.
-* Potentially be a query system for scores of a game. 
+* Potentially be a query system for scores of a game.
+
+## Setting up Environment (Recommended)
+Run these commands to set up your environment properly
+```bash
+python -m venv myenv
+source myenv/bin/activate
+pip install -r requirements.txt
+```
 
 ## Contributing
 **NEVER COMMIT TO THE MAIN BRANCH IF THE COMMIT IS LARGE, USE A BRANCH INSTEAD**
